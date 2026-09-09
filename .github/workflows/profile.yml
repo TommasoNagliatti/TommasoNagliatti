@@ -1,0 +1,49 @@
+name: Update profile visuals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/update_profile.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Refresh public repository snapshot
+        run: python3 scripts/update_profile.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: TommasoNagliatti
+          outputs: |
+            assets/generated/snake.svg?color_snake=%230891b2
+            assets/generated/snake-dark.svg?palette=github-dark&color_snake=%2367e8f9
+      - name: Enable snake only after valid SVGs exist
+        run: python3 scripts/update_profile.py --enable-snake
+      - name: Save generated visuals
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh profile visuals"
+            git push
+          fi
