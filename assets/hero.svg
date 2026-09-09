@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+<title id="title">Tommaso Nagliatti</title><desc id="desc">From hardware to intelligent systems. Computer Science, AI, software and engineering.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#112732"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#203642" stroke-width=".6"/></pattern></defs>
+<rect width="1000" height="260" rx="18" fill="url(#bg)"/><rect x="655" width="345" height="260" fill="url(#grid)" opacity=".5"/>
+<path d="M744 0v54l54 54h104v44h98M675 260v-68l58-58h58M920 0v65l-43 43" stroke="#67e8f9" stroke-opacity=".35" stroke-width="2" fill="none"/>
+<g fill="#67e8f9"><circle cx="798" cy="108" r="5"/><circle cx="902" cy="152" r="5"/><circle cx="733" cy="134" r="5"/></g>
+<rect x="45" y="45" width="4" height="164" rx="2" fill="#67e8f9"/>
+<text x="70" y="69" fill="#67e8f9" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">COMPUTER SCIENCE · AI · ENGINEERING</text>
+<text x="68" y="125" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="43" font-weight="700">Tommaso Nagliatti</text>
+<text x="70" y="165" fill="#b7c9d3" font-family="Arial,sans-serif" font-size="24">From hardware to intelligent systems.</text>
+<text x="70" y="204" fill="#8aa7b6" font-family="Arial,sans-serif" font-size="16">Curious by nature. Learning by building.</text>
+</svg>
