@@ -1,0 +1,80 @@
+{
+  "updated": "2026-09-09",
+  "repositories": [
+    {
+      "name": "1CCA-Python-FIAP-2026",
+      "language": "Python",
+      "url": "https://github.com/TommasoNagliatti/1CCA-Python-FIAP-2026"
+    },
+    {
+      "name": "aula-04-13.04",
+      "language": "C",
+      "url": "https://github.com/TommasoNagliatti/aula-04-13.04"
+    },
+    {
+      "name": "aula-c-06.04",
+      "language": "C",
+      "url": "https://github.com/TommasoNagliatti/aula-c-06.04"
+    },
+    {
+      "name": "aula-git-c",
+      "language": "C",
+      "url": "https://github.com/TommasoNagliatti/aula-git-c"
+    },
+    {
+      "name": "checkpoint-02",
+      "language": "C",
+      "url": "https://github.com/TommasoNagliatti/checkpoint-02"
+    },
+    {
+      "name": "Checkpoint_PCP_PENSAMENTO_COMPUTACIONAL_E_AUTOMA-O_COM_PYTHON",
+      "language": "Python",
+      "url": "https://github.com/TommasoNagliatti/Checkpoint_PCP_PENSAMENTO_COMPUTACIONAL_E_AUTOMA-O_COM_PYTHON"
+    },
+    {
+      "name": "Data-plusplus",
+      "language": "C++",
+      "url": "https://github.com/TommasoNagliatti/Data-plusplus"
+    },
+    {
+      "name": "Emps-APP",
+      "language": "JavaScript",
+      "url": "https://github.com/TommasoNagliatti/Emps-APP"
+    },
+    {
+      "name": "Emps-site",
+      "language": null,
+      "url": "https://github.com/TommasoNagliatti/Emps-site"
+    },
+    {
+      "name": "GIE",
+      "language": "Python",
+      "url": "https://github.com/TommasoNagliatti/GIE"
+    },
+    {
+      "name": "GitHub-de-Python",
+      "language": null,
+      "url": "https://github.com/TommasoNagliatti/GitHub-de-Python"
+    },
+    {
+      "name": "gridmind-ai",
+      "language": null,
+      "url": "https://github.com/TommasoNagliatti/gridmind-ai"
+    },
+    {
+      "name": "mission-control-ai",
+      "language": "Python",
+      "url": "https://github.com/TommasoNagliatti/mission-control-ai"
+    },
+    {
+      "name": "orion-control-ai",
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/TommasoNagliatti/orion-control-ai"
+    },
+    {
+      "name": "vehicle-charge-simulator",
+      "language": "C",
+      "url": "https://github.com/TommasoNagliatti/vehicle-charge-simulator"
+    }
+  ]
+}

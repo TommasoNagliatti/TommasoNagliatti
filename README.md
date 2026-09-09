@@ -100,5 +100,9 @@ I also bring a visual side to technical work. Through **Northa**, I've worked wi
 Always interested in learning with people building thoughtful applications of AI, software and engineering.
 
 <!-- SNAKE:START -->
-[View my contribution history](https://github.com/TommasoNagliatti)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/snake.svg" />
+  <img src="./assets/generated/snake.svg" width="100%" alt="Animated snake following my GitHub contribution calendar" />
+</picture>
 <!-- SNAKE:END -->
