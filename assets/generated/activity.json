@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "repositories": [
     {
       "name": "1CCA-Python-FIAP-2026",
@@ -40,6 +40,11 @@
       "name": "Emps-APP",
       "language": "JavaScript",
       "url": "https://github.com/TommasoNagliatti/Emps-APP"
+    },
+    {
+      "name": "EMPS-Ecosystem",
+      "language": "TypeScript",
+      "url": "https://github.com/TommasoNagliatti/EMPS-Ecosystem"
     },
     {
       "name": "Emps-site",
